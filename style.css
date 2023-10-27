@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/*banne css*/
+.banner {
+    width: 100%;
+    height: 80vh;
+    background-color: gray;
+    background-image: url('./image/banner2.webp');
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    /*background-color: red;*/
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.logo {
+    width: 20%;
+    height: 50px;
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-text {
+    width: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    font-family: 'poppins';
+
+
+}
+
+.nav {
+    width: 40%;
+    height: 50px;
+    /*background-color: blue;*/
+}
+
+.nav-links {
+    width: 100%;
+    height: 50px;
+    /*background-color: yellow;*/
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'poppins';
+}
+
+.nav-links {
+    padding: 5px 8px;
+
+}
+
+.nav-links :hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*banner details css*/
+
+.banner-details {
+    width: 100%;
+    /*background-color: white;*/
+    padding: 10px 15%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.badge {
+    width: max-content;
+    padding: 10px;
+    background-color: lightgray;
+    font-family: 'poppins';
+    font-size: 15px;
+    border-radius: 10px;
+
+
+}
+
+.banner-heading {
+    font-size: 70px;
+    font-family: 'poppins';
+    color: white;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+
+}
+
+
+.booking {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    column-gap: 20px;
+
+
+}
+
+.inp {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 5px;
+    justify-content: flex-start;
+
+}
+
+.input {
+    height: 40px;
+    text-indent: 5px;
+    font-size: 15px;
+
+}
+
+.book-btn {
+    padding: 10px 30px;
+}
+
+/*About css*/
+.about {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: white;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 200;
+    word-spacing: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #4d5e81;
+}
+
+/*Rooms css*/
+.rooms {
+    width: 100%;
+    padding: 40px 15%;
+    background-color: #ededed;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sectioon-title {
+    font-size: 30px;
+}
+
+.rooms-area {
+    width: 100%;
+    padding: 20px 0px;
+    /*background-color: red;*/
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 30px;
+
+
+}
+
+.room {
+    width: 25%;
+    background-color: white;
+}
+
+.room-img {
+    height: 250px;
+    width: 100%;
+    /* background-color: yellow;*/
+}
+
+.room-image {
+    width: 100%;
+
+}
+
+.room-details {
+    /*background-color: green;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+/* subsribe*/
+.subscribe {
+    width: 100%;
+    padding: 50px 15%;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-text {
+    width: 30%;
+    padding: 20px;
+    /*background-color: skyblue;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.logo2 {
+    width: 50%;
+    /*background-color: yellow;*/
+}
+
+.sub-desc {
+    font-size: 15px;
+}
+
+.sub-area {
+    width: 35%;
+    padding: 20px;
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'poppins';
+    row-gap: 20px;
+}
+
+.sub-form {
+    display: flex;
+}
+
+.sub-inp {
+    width: 75%;
+    height: 60px;
+}
+
+/*food css*/
+.food {
+    width: 100%;
+    height: 90vh;
+    padding: 40px 15%;
+    background-color: #ffffff;
+    background-image: url('./image/food5.jpg');
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.food-details {
+    width: 40%;
+    padding: 50px;
+    /*background-color: red;*/
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    row-gap: 15px;
+}
+
+
+.section-header {
+    font-size: 40px;
+    
+    
+}
+
+
+/* premium css*/
+.premium {
+    width: 100%;
+    padding: 50px 15%;
+    font-family: 'poppins';
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prooms-area {
+    width: 100%;
+    height: 1000px;
+    /*background-color: green;*/
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.proom-img {
+    width: 40%;
+    height: 10000px;
+    /*background-color: yellow;*/
+    overflow: hidden;
+}
+
+.proom-boxes {
+    width: 70%;
+    height: 1000px;
+    /*background-color: skyblue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proom-image {
+    width: 100%;
+}
+
+.proom-boxes {
+    width: 100%;
+    padding: 20px;
+    /*background-color: gray;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/*gallary css*/
+.gallary {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 15%;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: inherit;
+
+
+}
+
+.gall-img {
+    width: 33%;
+
+    cursor: pointer;
+    transition: .3s;
+    opacity: .5;
+}
+
+.gall-img:hover {
+    opacity: 2;
+}
